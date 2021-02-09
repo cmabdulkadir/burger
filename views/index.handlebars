@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      {{!-- Display All NOT devoured burgers --}}
+        {{#each burgers}}
+          {{#unless this.devoured}}
+          <div>
+            <p>{{this.burger_name}}</p>
+          </div>
+          {{/unless}}
+        {{/each}}
+    </div>
+    <div class="col">
+      {{!-- h1 EAT da Burger --}}
+      {{!-- Img of burger --}}
+
+      {{!-- text input for new burger --}}
+
+      {{!-- submit button --}}
+    </div>
+    <div class="col">
+      {{!-- Display all devoured burgers --}}
+    </div>
+  </div>
+</div>

@@ -78,34 +78,3 @@ var orm = {
  
 module.exports = orm;
 
-
-// const connection = require("./connection");
-// module.exports = {
-//     selectAll: function(){
-//         const queryString = "SELECT * FROM burgers;"
-//         connection.query(queryString, function(result){
-//             console.log(result)
-
-//         });
-//     },
-//     insertOne: function(){
-//         const queryString = `INSERT INTO burgers (burger_name, devoured) VALUES ("cheeseburger", false);`
-//         connection.query(queryString, function(result){
-//             console.log(result)
-
-//         });
-//     },
-//     updateOne: function(){
-//         const queryString = `UPDATE burgers (burger_name, devoured) VALUES ("cheeseburger", false);`
-//         connection.query(queryString, function(result){
-//             console.log(result)
-
-//         });
-//     },
-
-
-// }
-
-
-
-

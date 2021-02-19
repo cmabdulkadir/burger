@@ -1,0 +1,46 @@
+#burgerImg{
+  width: 50px;
+  height: 50px;
+}
+h1 {
+  text-align: center;
+}
+
+
+body{
+  background-color: orange;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+/* ul {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+} */
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+

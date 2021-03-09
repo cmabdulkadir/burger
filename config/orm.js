@@ -72,7 +72,16 @@ var orm = {
 
       cb(result);
     });
-  }
+  },
+  delete: function(tableInput, condition, cb) {
+    var queryString = "DELETE FROM " + tableInput +  " WHERE " + condition + ";";
+    connection.query(queryString, function(err, result) {
+      if (err) {
+        throw err;
+      }
+      cb(result);
+    });
+  },
 };
 
  

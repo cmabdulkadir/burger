@@ -13,7 +13,6 @@ $(function() {
       data: newStatusState
     }).then(
       function() {
-        console.log("changed burger to", newStatus);
         // Reload the page to get the updated list
         location.reload();
       }
@@ -26,6 +25,7 @@ $(function() {
       burger_name: $("#ca").val().trim(),
       devoured: 0
     };
+    console.log(newBurger);
 
     $.ajax("/api/burgers", {
       type: "POST",
